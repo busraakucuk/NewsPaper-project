@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NewsPaper</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Condensed:wght@300;400;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <div class="name">
+        <a class="namelogo" href="index.html">Busra Kucuk</a>
+      </div>
+      <div class="search">
+        <input class="search-input" id="search-input" type="text" placeholder="Arama Yap..." />
+        <button type="submit" class="search-icon" id="search-icon">
+          <i class="fa-solid fa-magnifying-glass" style="color: white"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="nav-links">
+      <a href="index.html" class="anasayfa nav-link active">Anasayfa</a>
+      <a href="kategoriler.html" class="kategoriler nav-link">Kategoriler</a>
+      <a href="hakkimda.html" class="hakkimda nav-link">Hakkımda</a>
+    </div>
+  </nav>
+
+  <main>
+    <div class="slider">
+      <div class="haber">
+        <a href="" class="baslik"></a>
+        <h3 class="haber-icerigi">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
+          eum iure velit temporibus cum porro unde sequi aperiam ut sapiente.
+          Facere facilis nobis vel natus qui neque soluta officiis voluptatem.
+        </h3>
+        <h4 class="yazar"></h4>
+        <h5 class="tarih"></h5>
+      </div>
+      <div class="buttons">
+        <button class="but1 slide-but">1</button>
+        <button class="but2 slide-but">2</button>
+        <button class="but3 slide-but">3</button>
+      </div>
+    </div>
+    <div class="alt-haberler">
+      <p class="editor-pick">Editörün Seçtikleri</p>
+      <ul class="alt-haberler-liste"></ul>
+    </div>
+    <div class="sayfalar">
+      <button class="sayfa-butonu sayfa-1">1</button>
+    </div>
+  </main>
+  <footer>
+    <div class="footer">
+      NewsPaper Copyright © 2023 - All rights reserved || Designed By: Busra
+      Kucuk
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
